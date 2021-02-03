@@ -20,8 +20,6 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
     + [Frameworks](#frameworks)
     + [IDEs](#ides)
   * [Other tools](#other-tools)
-  * [Test blockchain networks](#test-blockchain-networks)
-    + [Test BNB&BEP20 faucets](#test-bnb-bep20-faucets)
   * [Communicating with Harmony](#communicating-with-hmy)
     + [Frontend Harmony APIs](#frontend-hmy-apis)
     + [Backend Harmony APIs](#backend-hmy-apis)
@@ -84,10 +82,11 @@ Harmony Smart Chain Config:
 |[hardhat](https://hardhat.org/)| Extensible developer tool that helps smart contract developers increase productivity by reliably bringing together the tools they want.| :heavy_check_mark: |
 |[Azure Blockchain Dev Kit for BSC for VSCode](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain)| VSCode extension that allows for creating smart contracts and deploying them inside of Visual Studio Code|:heavy_check_mark:|
 
-### Communicating with BSC
-#### Frontend BSC APIs
+### Communicating with Harmony
+#### Frontend Harmony APIs
 | Name  | Description  | Support |
 |  ---  |---|---|
+|[Harmony SDK](https://github.com/harmony-one/sdk)| This is the Harmony Javascript SDK which provides an easier way to interact with Harmony blockchain. | :white_check_mark: |
 |[Web3.js](https://github.com/ethereum/web3.js/)| Javascript Web3 | :white_check_mark: |
 |[Eth.js](https://github.com/ethjs)| Javascript Web3 alternative | :white_check_mark: |
 |[Ethers.js](https://github.com/ethers-io/ethers.js/)| Javascript Web3 alternative, useful utilities and wallet features | :white_check_mark:|
@@ -106,9 +105,10 @@ Harmony Smart Chain Config:
 |[Delphereum](https://github.com/svanas/delphereum)|a Delphi interface to the Ethereum blockchain that allows for development of native dApps for Windows, macOS, iOS, and Android.|:white_check_mark:|
 [Arkane](https://arkane.network)| Javascript Web3, MetaMask alternative, no extensions needed, cross browser support, works on mobile and web. Build for mainstream user adoption. Also offers rich backend APIs |:white_check_mark:|
 
-#### Backend BSC APIs
+#### Backend Harmony APIs
 | Name  | Description  | Support|
 |  ---  |---|---|
+|[Harmony SDK](https://github.com/harmony-one/sdk)| This is the Harmony Javascript SDK which provides an easier way to interact with Harmony blockchain. | :white_check_mark: |
 |[Web3.py](https://github.com/ethereum/web3.py)| Python Web3| :white_check_mark:|
 |[Web3.php](https://github.com/sc0Vu/web3.php) |PHP Web3| :white_check_mark: |
 |[Ethereum-php](https://github.com/digitaldonkey/ethereum-php)| PHP Web3| :white_check_mark: |
