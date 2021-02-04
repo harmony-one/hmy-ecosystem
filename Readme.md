@@ -26,6 +26,42 @@ In the below sections you can find a list of different layers of the Harmony Sta
 | Validator Dashboards | [Harmony Staking Dashboard](https://staking.harmony.one)
 | Governance Dashboards | [Validators Governance](https://staking.harmony.one/snapshot)
 
+### :factory: Infrastructure
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+|API/Node access| [Harmony Node Status](https://status.harmony.one/)
+|Community Polling Dashboard| [snapshot](https://staking.harmony.one/snapshot)
+|Faucets| [faucets](https://docs.harmony.one/home/developers/getting-started/faucets)
+
+### :wrench: Tools, APIs and Languages
+
+| Components | Existing projects | Potentially interesting projects 
+|-|-|-
+| Smart Contract Languages | [Solidity](https://solidity.readthedocs.io/en/latest/), [Vyper](https://vyper.readthedocs.io/en/latest/)
+| Dev Frameworks | [Truffle](https://trufflesuite.com/),[Embark](https://github.com/embark-framework/embark),[Waffle](https://getwaffle.io/),[Dapp](https://dapp.tools/dapp/),[OpenZeppelin SDK](https://openzeppelin.com/sdk/),[hardhat](https://hardhat.org/)
+| IDEs | [Remix](https://remix.ethereum.org/),[Intellij Solidity Plugin](https://jetbrains.com/idea/), [chainide](https://eth.chainide.com/project/welcome)
+| Lint Tools | [Solhint](https://github.com/protofire/solhint), [Ethlint](https://github.com/duaraghav8/Ethlint)
+| Testing Tools | [Solidity code coverage](https://github.com/0xProject/0x-monorepo/tree/development/packages/sol-coverage), [Solidity function profiler](https://github.com/EricR/sol-function-profiler), [eth-tester](https://github.com/ethereum/eth-tester)
+| Test blockchain networks | [bscnode](https://docs.binance.org/smart-chain/developer/fullnode.html), [Ganache](https://github.com/trufflesuite/ganache)
+| Security tools | [MythX](https://mythx.io/), [Mythril](https://github.com/ConsenSys/mythril), [Oyente](https://github.com/melonproject/oyente), [Securify](https://securify.chainsecurity.com/), [Solgraph](https://github.com/raineorshine/solgraph), [solc-verify](https://github.com/SRI-CSL/solidity/)
+| ABI (Application Binary Interface) tools | [ABI decoder](https://github.com/ConsenSys/abi-decoder), [ABI-gen](https://github.com/0xProject/0x-monorepo/tree/development/packages/abi-gen), [Ethereum ABI UI](https://github.com/hiddentao/ethereum-abi-ui)
+| Frontend Harmony APIs | [Harmony Javascript SDK](https://github.com/harmony-one/sdk), [Web3.js](https://github.com/ethereum/web3.js/), [Eth.js](https://github.com/ethjs), [Ethers.js](https://github.com/ethers-io/ethers.js/), [light.js](https://github.com/paritytech/js-libs/tree/master/packages/light.js)
+| Backend Harmony APIs | [Java SDK](https://docs.harmony.one/home/developers/sdk/java-sdk), [GO CLI](https://docs.harmony.one/home/developers/sdk/go-cli),  [Python SDK](https://docs.harmony.one/home/developers/sdk/python-sdk),s [Harmony Javascript SDK](https://github.com/harmony-one/sdk), [Web3.py](https://github.com/ethereum/web3.py), [Web3.php](https://github.com/sc0Vu/web3.php), [Java Web3](https://github.com/web3j/web3j), [Net Web3](https://nethereum.com/), [Ruby Web3](https://github.com/EthWorks/ethereum.rb)
+
+Goto [Harmony Developer Docs](https://docs.harmony.one/home/developers/getting-started) to navigate the full list.
+
+### :link: Dapps
+
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+| NFT/Collectibles | [The Beast Quest Cards](https://bquh.io/), [LMA Art Gallery](https://lma-art-gallery.com/), [Demo Showcases](https://docs.harmony.one/home/general/showcases/other-showcases)
+| Cross-Chain | [Swoop Exchange](https://swoop.exchange/#/swap), [BNB-Harmony Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/bnb-harmony-bridge), [BTC Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/btc-bridge), [Iris ONE-ETH Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/iris-bridge)
+| Horizon Bridge | [Horizon Bridge Mainnet](http://bridge.harmony.one/), [Horizon Bridge Testnet](http://testnet.bridge.hmny.io/)  
+| DEFI | [DEFI Demos](https://docs.harmony.one/home/general/showcases/defi)
+| Governance/DAO | [Validators Governance](staking.harmony.one/snapshot), [Maker Demo](https://docs.harmony.one/home/general/showcases/defi/maker-demo-steps)
+| Gaming | [Harmony Puzzle](https://docs.harmony.one/home/general/showcases/other-showcases/harmony-puzzle) 
+
+
 ### :black_nib: Signatures
 
 | Components | Existing projects | Potentially interesting projects
