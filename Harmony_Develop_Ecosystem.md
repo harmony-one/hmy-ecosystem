@@ -43,6 +43,7 @@ We separate the support of tools/infra into:
 
 - :white_check_mark: seamless support.
 - :heavy_check_mark: need custom config harmony network.
+- :mag_right: In the process of testing - we are currently checking the compatibility of this library
 
 Harmony Smart Chain Config:
 
@@ -88,43 +89,47 @@ Harmony Smart Chain Config:
 |  ---  |---|---|
 |[Harmony SDK](https://github.com/harmony-one/sdk)| This is the Harmony Javascript SDK which provides an easier way to interact with Harmony blockchain. | :white_check_mark: |
 |[Web3.js](https://github.com/ethereum/web3.js/)| Javascript Web3 | :white_check_mark: |
+|[web3-react](https://github.com/NoahZinsmeister/web3-react)| React framework for building single-page Ethereum dApps | :white_check_mark: |
 |[Eth.js](https://github.com/ethjs)| Javascript Web3 alternative | :white_check_mark: |
 |[Ethers.js](https://github.com/ethers-io/ethers.js/)| Javascript Web3 alternative, useful utilities and wallet features | :white_check_mark:|
-|[light.js](https://github.com/paritytech/js-libs/tree/master/packages/light.js)| A high-level reactive JS library optimized for light clients| :white_check_mark:|
-|[Web3Wrapper](https://github.com/0xProject/0x-monorepo/tree/development/packages/web3-wrapper)| Typescript Web3 alternative|:white_check_mark:|
-|[Ethereumjs](https://github.com/ethereumjs/) | A collection of utility functions for Ethereum like [ethereumjs-util](https://github.com/ethereumjs/ethereumjs-util) and [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx)|:white_check_mark:|
-|[flex-contract](https://github.com/merklejerk/flex-contract) and [flex-ether](https://github.com/merklejerk/flex-ether)|  Modern, zero-configuration, high-level libraries for interacting with smart contracts and making transactions.|:white_check_mark:|
-|[web3x](https://github.com/xf00f/web3x)|  A TypeScript port of web3.js. Benefits includes tiny builds and full type safety, including when interacting with contracts.|:white_check_mark:|
-|[Nethereum](https://github.com/Nethereum/)| Cross-platform Ethereum development framework | :white_check_mark: |
-|[Drizzle](https://github.com/truffle-box/drizzle-box)| Redux library to connect a frontend to a blockchain| :white_check_mark:|
-|[Tasit SDK](https://github.com/tasitlabs/tasitsdk)| A JavaScript SDK for making native mobile Ethereum dapps using React Native| :white_check_mark:|
-|[Subproviders](https://0x.org/docs/tools/subproviders)| Several useful subproviders to use in conjunction with [Web3-provider-engine](https://github.com/MetaMask/web3-provider-engine) (including a LedgerSubprovider for adding Ledger hardware wallet support to your dApp)| :white_check_mark: |
-|[web3-react](https://github.com/NoahZinsmeister/web3-react)| React framework for building single-page Ethereum dApps | :white_check_mark: |
-|[ethvtx](https://github.com/ticket721/ethvtx)| ethereum-ready & framework-agnostic redux store configuration. [docs](https://ticket721.github.io/ethvtx/)| :white_check_mark:|
-|[ChainAbstractionLayer](https://github.com/liquality/chainabstractionlayer)| Communicate with different blockchains (including Ethereum) using a single interface.| :white_check_mark:|
-|[Delphereum](https://github.com/svanas/delphereum)|a Delphi interface to the Ethereum blockchain that allows for development of native dApps for Windows, macOS, iOS, and Android.|:white_check_mark:|
-[Arkane](https://arkane.network)| Javascript Web3, MetaMask alternative, no extensions needed, cross browser support, works on mobile and web. Build for mainstream user adoption. Also offers rich backend APIs |:white_check_mark:|
+|[light.js](https://github.com/paritytech/js-libs/tree/master/packages/light.js)| A high-level reactive JS library optimized for light clients| :mag_right:|
+|[Web3Wrapper](https://github.com/0xProject/0x-monorepo/tree/development/packages/web3-wrapper)| Typescript Web3 alternative|:mag_right:|
+|[Ethereumjs](https://github.com/ethereumjs/) | A collection of utility functions for Ethereum like [ethereumjs-util](https://github.com/ethereumjs/ethereumjs-util) and [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx)|:mag_right:|
+|[flex-contract](https://github.com/merklejerk/flex-contract) and [flex-ether](https://github.com/merklejerk/flex-ether)|  Modern, zero-configuration, high-level libraries for interacting with smart contracts and making transactions.|:mag_right:|
+|[web3x](https://github.com/xf00f/web3x)|  A TypeScript port of web3.js. Benefits includes tiny builds and full type safety, including when interacting with contracts.|:mag_right:|
+|[Nethereum](https://github.com/Nethereum/)| Cross-platform Ethereum development framework | :mag_right: |
+|[Drizzle](https://github.com/truffle-box/drizzle-box)| Redux library to connect a frontend to a blockchain| :mag_right:|
+|[Tasit SDK](https://github.com/tasitlabs/tasitsdk)| A JavaScript SDK for making native mobile Ethereum dapps using React Native| :mag_right:|
+|[Subproviders](https://0x.org/docs/tools/subproviders)| Several useful subproviders to use in conjunction with [Web3-provider-engine](https://github.com/MetaMask/web3-provider-engine) (including a LedgerSubprovider for adding Ledger hardware wallet support to your dApp)| :mag_right:|
+|[ethvtx](https://github.com/ticket721/ethvtx)| ethereum-ready & framework-agnostic redux store configuration. [docs](https://ticket721.github.io/ethvtx/)| :mag_right:|
+|[ChainAbstractionLayer](https://github.com/liquality/chainabstractionlayer)| Communicate with different blockchains (including Ethereum) using a single interface.| :mag_right:|
+|[Delphereum](https://github.com/svanas/delphereum)|a Delphi interface to the Ethereum blockchain that allows for development of native dApps for Windows, macOS, iOS, and Android.|:mag_right:|
+[Arkane](https://arkane.network)| Javascript Web3, MetaMask alternative, no extensions needed, cross browser support, works on mobile and web. Build for mainstream user adoption. Also offers rich backend APIs |:mag_right:|
 
 #### Backend Harmony APIs
 | Name  | Description  | Support|
 |  ---  |---|---|
 |[Harmony SDK](https://github.com/harmony-one/sdk)| This is the Harmony Javascript SDK which provides an easier way to interact with Harmony blockchain. | :white_check_mark: |
+|[Java SDK](https://docs.harmony.one/home/developers/sdk/java-sdk)| Java SDK | :white_check_mark: |
+|[GO CLI](https://docs.harmony.one/home/developers/sdk/go-cli)| GO CLI | :white_check_mark: |
+|[Python SDK](https://docs.harmony.one/home/developers/sdk/python-sdk)| Python SDK | :white_check_mark: |
+|[Web3j](https://github.com/web3j/web3j) | Java Web3| :white_check_mark:|
 |[Web3.py](https://github.com/ethereum/web3.py)| Python Web3| :white_check_mark:|
 |[Web3.php](https://github.com/sc0Vu/web3.php) |PHP Web3| :white_check_mark: |
-|[Ethereum-php](https://github.com/digitaldonkey/ethereum-php)| PHP Web3| :white_check_mark: |
-|[Web3j](https://github.com/web3j/web3j) | Java Web3| :white_check_mark:|
-|[Nethereum](https://nethereum.com/)|.Net Web3 | :white_check_mark: |
-|[Ethereum.rb](https://github.com/EthWorks/ethereum.rb)| Ruby Web3 | :white_check_mark:|
-|[Web3.hs](https://hackage.haskell.org/package/web3) |Haskell Web3 | :white_check_mark: |
-|[KEthereum](https://github.com/komputing/KEthereum) | Kotlin Web3 | :white_check_mark: |
-|[Eventeum](https://github.com/ConsenSys/eventeum)| A bridge between Ethereum smart contract events and backend microservices, written in Java by Kauri| :white_check_mark: |
-|[Ethereumex](https://github.com/mana-ethereum/ethereumex)| Elixir JSON-RPC client for the Ethereum blockchain | :white_check_mark: |
-|[Ethereum-jsonrpc-gateway](https://github.com/HydroProtocol/ethereum-jsonrpc-gateway)| A gateway that allows you to run multiple Ethereum nodes for redundancy and load-balancing purposes. Can be ran as an alternative to (or on top of) Infura. Written in Golang.| :white_check_mark: |
-|[EthContract](https://github.com/AgileAlpha/eth_contract) | A set of helper methods to help query ETH smart contracts in Elixir|:white_check_mark:|
-|[Ethereum Contract Service](https://github.com/mesg-foundation/service-ethereum-contract) |A MESG Service to interact with any Ethereum contract based on its address and ABI.| :white_check_mark:|
-|[Ethereum Service](https://github.com/mesg-foundation/service-ethereum)| A MESG Service to interact with events from Ethereum and interact with it.|:white_check_mark:|
-|[Marmo](https://marmo.io/)| Python, JS, and Java SDK for simplifying interactions with Ethereum. Uses relayers to offload transaction costs to relayers.|:white_check_mark:|
-[Arkane](https://arkane.network)| Set of APIs to query BSC, create wallets and perform transactions. API includes functions to create and manage ERC721 and ERC1155 NFTs on BSC. Also offers a rich frontend.|:white_check_mark:|
+
+|[Ethereum-php](https://github.com/digitaldonkey/ethereum-php)| PHP Web3| :mag_right: |
+|[Nethereum](https://nethereum.com/)|.Net Web3 | :mag_right: |
+|[Ethereum.rb](https://github.com/EthWorks/ethereum.rb)| Ruby Web3 | :mag_right:|
+|[Web3.hs](https://hackage.haskell.org/package/web3) |Haskell Web3 | :mag_right: |
+|[KEthereum](https://github.com/komputing/KEthereum) | Kotlin Web3 | :mag_right: |
+|[Eventeum](https://github.com/ConsenSys/eventeum)| A bridge between Ethereum smart contract events and backend microservices, written in Java by Kauri| :mag_right: |
+|[Ethereumex](https://github.com/mana-ethereum/ethereumex)| Elixir JSON-RPC client for the Ethereum blockchain | :mag_right: |
+|[Ethereum-jsonrpc-gateway](https://github.com/HydroProtocol/ethereum-jsonrpc-gateway)| A gateway that allows you to run multiple Ethereum nodes for redundancy and load-balancing purposes. Can be ran as an alternative to (or on top of) Infura. Written in Golang.| :mag_right: |
+|[EthContract](https://github.com/AgileAlpha/eth_contract) | A set of helper methods to help query ETH smart contracts in Elixir|:mag_right:|
+|[Ethereum Contract Service](https://github.com/mesg-foundation/service-ethereum-contract) |A MESG Service to interact with any Ethereum contract based on its address and ABI.| :mag_right:|
+|[Ethereum Service](https://github.com/mesg-foundation/service-ethereum)| A MESG Service to interact with events from Ethereum and interact with it.|:mag_right:|
+|[Marmo](https://marmo.io/)| Python, JS, and Java SDK for simplifying interactions with Ethereum. Uses relayers to offload transaction costs to relayers.|:mag_right:|
+[Arkane](https://arkane.network)| Set of APIs to query BSC, create wallets and perform transactions. API includes functions to create and manage ERC721 and ERC1155 NFTs on BSC. Also offers a rich frontend.|:mag_right:|
 
 #### Bootstrap/out of box tools
 | Name  | Description  | Support |
