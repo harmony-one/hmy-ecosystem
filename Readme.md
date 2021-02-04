@@ -50,22 +50,22 @@ In the below sections you can find a list of different layers of the Harmony Sta
 
 Goto [Harmony Developer Docs](https://docs.harmony.one/home/developers/getting-started) to navigate the full list.
 
+### :convenience_store: Dapps infra
+| Components | Existing projects | Potentially interesting projects
+|-|-|-
+| Oracle | [Band Protocol](https://medium.com/harmony-one/harmony-completes-mainnet-integration-with-band-protocol-and-announce-strategic-partnership-8f09d5b4b4be), [ChainLink](https://medium.com/harmony-one/harmony-integrates-chainlink-and-announces-grants-for-chainlink-based-apps-built-on-harmony-816a7f204ee1)
+| File Storage, Cloud |
+| Cross Chain Bridges | [Swoop Exchange](https://swoop.exchange/#/swap), [BNB-Harmony Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/bnb-harmony-bridge), [BTC Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/btc-bridge), [Iris ONE-ETH Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/iris-bridge)
+| Horizon Bridge | [Horizon Bridge Mainnet](http://bridge.harmony.one/), [Horizon Bridge Testnet](http://testnet.bridge.hmny.io/)    
+| Licensing |
+| Computation | 
+| IoT | |
+
 ### :link: Dapps
 
 | Components | Existing projects | Potentially interesting projects
 |-|-|-
 | NFT/Collectibles | [The Beast Quest Cards](https://bquh.io/), [LMA Art Gallery](https://lma-art-gallery.com/), [Demo Showcases](https://docs.harmony.one/home/general/showcases/other-showcases)
-| Cross-Chain | [Swoop Exchange](https://swoop.exchange/#/swap), [BNB-Harmony Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/bnb-harmony-bridge), [BTC Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/btc-bridge), [Iris ONE-ETH Bridge](https://docs.harmony.one/home/general/showcases/cross-chain/iris-bridge)
-| Horizon Bridge | [Horizon Bridge Mainnet](http://bridge.harmony.one/), [Horizon Bridge Testnet](http://testnet.bridge.hmny.io/)  
 | DEFI | [DEFI Demos](https://docs.harmony.one/home/general/showcases/defi)
 | Governance/DAO | [Validators Governance](staking.harmony.one/snapshot), [Maker Demo](https://docs.harmony.one/home/general/showcases/defi/maker-demo-steps)
 | Gaming | [Harmony Puzzle](https://docs.harmony.one/home/general/showcases/other-showcases/harmony-puzzle) 
-
-
-### :black_nib: Signatures
-
-| Components | Existing projects | Potentially interesting projects
-|-|-|-
-| Easy multisig scheme | 
-| Validator HSMs| |
-| Validator HSM-like solutions|
