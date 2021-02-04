@@ -1,4 +1,4 @@
-# Open Source Harmony Ecosystem [WIP!]
+# Harmony ONE Ecosystem
 
 The goal of this page is to provide the current status of the open-source Harmony ONE Tech Stack and highlight the potential interesting projects that are most demanded by the Harmony community and ecosystem.  
 
