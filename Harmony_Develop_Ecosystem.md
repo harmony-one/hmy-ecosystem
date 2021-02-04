@@ -116,7 +116,6 @@ Harmony Smart Chain Config:
 |[Web3j](https://github.com/web3j/web3j) | Java Web3| :white_check_mark:|
 |[Web3.py](https://github.com/ethereum/web3.py)| Python Web3| :white_check_mark:|
 |[Web3.php](https://github.com/sc0Vu/web3.php) |PHP Web3| :white_check_mark: |
-
 |[Ethereum-php](https://github.com/digitaldonkey/ethereum-php)| PHP Web3| :mag_right: |
 |[Nethereum](https://nethereum.com/)|.Net Web3 | :mag_right: |
 |[Ethereum.rb](https://github.com/EthWorks/ethereum.rb)| Ruby Web3 | :mag_right:|
